@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FA83FE532CD8BDCA005F8AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA83FE3A2CD8BDC6005F8AF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA83FE412CD8BDC6005F8AF3;
+			remoteInfo = NeoneXCTests;
+		};
+		FA83FE5D2CD8BDCA005F8AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA83FE3A2CD8BDC6005F8AF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA83FE412CD8BDC6005F8AF3;
+			remoteInfo = NeoneXCTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA83FE422CD8BDC6005F8AF3 /* NeoneXCTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoneXCTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA83FE522CD8BDCA005F8AF3 /* NeoneXCTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoneXCTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA83FE5C2CD8BDCA005F8AF3 /* NeoneXCTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoneXCTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA83FE442CD8BDC6005F8AF3 /* NeoneXCTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NeoneXCTests;
+			sourceTree = "<group>";
+		};
+		FA83FE552CD8BDCA005F8AF3 /* NeoneXCTestsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NeoneXCTestsTests;
+			sourceTree = "<group>";
+		};
+		FA83FE5F2CD8BDCA005F8AF3 /* NeoneXCTestsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NeoneXCTestsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA83FE3F2CD8BDC6005F8AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA83FE4F2CD8BDCA005F8AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA83FE592CD8BDCA005F8AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA83FE392CD8BDC6005F8AF3 = {
+			isa = PBXGroup;
+			children = (
+				FA83FE442CD8BDC6005F8AF3 /* NeoneXCTests */,
+				FA83FE552CD8BDCA005F8AF3 /* NeoneXCTestsTests */,
+				FA83FE5F2CD8BDCA005F8AF3 /* NeoneXCTestsUITests */,
+				FA83FE432CD8BDC6005F8AF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA83FE432CD8BDC6005F8AF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA83FE422CD8BDC6005F8AF3 /* NeoneXCTests.app */,
+				FA83FE522CD8BDCA005F8AF3 /* NeoneXCTestsTests.xctest */,
+				FA83FE5C2CD8BDCA005F8AF3 /* NeoneXCTestsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA83FE412CD8BDC6005F8AF3 /* NeoneXCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA83FE662CD8BDCA005F8AF3 /* Build configuration list for PBXNativeTarget "NeoneXCTests" */;
+			buildPhases = (
+				FA83FE3E2CD8BDC6005F8AF3 /* Sources */,
+				FA83FE3F2CD8BDC6005F8AF3 /* Frameworks */,
+				FA83FE402CD8BDC6005F8AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA83FE442CD8BDC6005F8AF3 /* NeoneXCTests */,
+			);
+			name = NeoneXCTests;
+			packageProductDependencies = (
+			);
+			productName = NeoneXCTests;
+			productReference = FA83FE422CD8BDC6005F8AF3 /* NeoneXCTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA83FE512CD8BDCA005F8AF3 /* NeoneXCTestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA83FE692CD8BDCA005F8AF3 /* Build configuration list for PBXNativeTarget "NeoneXCTestsTests" */;
+			buildPhases = (
+				FA83FE4E2CD8BDCA005F8AF3 /* Sources */,
+				FA83FE4F2CD8BDCA005F8AF3 /* Frameworks */,
+				FA83FE502CD8BDCA005F8AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA83FE542CD8BDCA005F8AF3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA83FE552CD8BDCA005F8AF3 /* NeoneXCTestsTests */,
+			);
+			name = NeoneXCTestsTests;
+			packageProductDependencies = (
+			);
+			productName = NeoneXCTestsTests;
+			productReference = FA83FE522CD8BDCA005F8AF3 /* NeoneXCTestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA83FE5B2CD8BDCA005F8AF3 /* NeoneXCTestsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA83FE6C2CD8BDCA005F8AF3 /* Build configuration list for PBXNativeTarget "NeoneXCTestsUITests" */;
+			buildPhases = (
+				FA83FE582CD8BDCA005F8AF3 /* Sources */,
+				FA83FE592CD8BDCA005F8AF3 /* Frameworks */,
+				FA83FE5A2CD8BDCA005F8AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA83FE5E2CD8BDCA005F8AF3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA83FE5F2CD8BDCA005F8AF3 /* NeoneXCTestsUITests */,
+			);
+			name = NeoneXCTestsUITests;
+			packageProductDependencies = (
+			);
+			productName = NeoneXCTestsUITests;
+			productReference = FA83FE5C2CD8BDCA005F8AF3 /* NeoneXCTestsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA83FE3A2CD8BDC6005F8AF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					FA83FE412CD8BDC6005F8AF3 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					FA83FE512CD8BDCA005F8AF3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = FA83FE412CD8BDC6005F8AF3;
+					};
+					FA83FE5B2CD8BDCA005F8AF3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = FA83FE412CD8BDC6005F8AF3;
+					};
+				};
+			};
+			buildConfigurationList = FA83FE3D2CD8BDC6005F8AF3 /* Build configuration list for PBXProject "NeoneXCTests" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA83FE392CD8BDC6005F8AF3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA83FE432CD8BDC6005F8AF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA83FE412CD8BDC6005F8AF3 /* NeoneXCTests */,
+				FA83FE512CD8BDCA005F8AF3 /* NeoneXCTestsTests */,
+				FA83FE5B2CD8BDCA005F8AF3 /* NeoneXCTestsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA83FE402CD8BDC6005F8AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA83FE502CD8BDCA005F8AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA83FE5A2CD8BDCA005F8AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA83FE3E2CD8BDC6005F8AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA83FE4E2CD8BDCA005F8AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA83FE582CD8BDCA005F8AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA83FE542CD8BDCA005F8AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA83FE412CD8BDC6005F8AF3 /* NeoneXCTests */;
+			targetProxy = FA83FE532CD8BDCA005F8AF3 /* PBXContainerItemProxy */;
+		};
+		FA83FE5E2CD8BDCA005F8AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA83FE412CD8BDC6005F8AF3 /* NeoneXCTests */;
+			targetProxy = FA83FE5D2CD8BDCA005F8AF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA83FE642CD8BDCA005F8AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA83FE652CD8BDCA005F8AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA83FE672CD8BDCA005F8AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeoneXCTests/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.neone.NeoneXCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA83FE682CD8BDCA005F8AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeoneXCTests/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.neone.NeoneXCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA83FE6A2CD8BDCA005F8AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.neone.NeoneXCTestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoneXCTests.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeoneXCTests";
+			};
+			name = Debug;
+		};
+		FA83FE6B2CD8BDCA005F8AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.neone.NeoneXCTestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoneXCTests.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeoneXCTests";
+			};
+			name = Release;
+		};
+		FA83FE6D2CD8BDCA005F8AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.neone.NeoneXCTestsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoneXCTests;
+			};
+			name = Debug;
+		};
+		FA83FE6E2CD8BDCA005F8AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.neone.NeoneXCTestsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoneXCTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA83FE3D2CD8BDC6005F8AF3 /* Build configuration list for PBXProject "NeoneXCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA83FE642CD8BDCA005F8AF3 /* Debug */,
+				FA83FE652CD8BDCA005F8AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA83FE662CD8BDCA005F8AF3 /* Build configuration list for PBXNativeTarget "NeoneXCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA83FE672CD8BDCA005F8AF3 /* Debug */,
+				FA83FE682CD8BDCA005F8AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA83FE692CD8BDCA005F8AF3 /* Build configuration list for PBXNativeTarget "NeoneXCTestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA83FE6A2CD8BDCA005F8AF3 /* Debug */,
+				FA83FE6B2CD8BDCA005F8AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA83FE6C2CD8BDCA005F8AF3 /* Build configuration list for PBXNativeTarget "NeoneXCTestsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA83FE6D2CD8BDCA005F8AF3 /* Debug */,
+				FA83FE6E2CD8BDCA005F8AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA83FE3A2CD8BDC6005F8AF3 /* Project object */;
+}
